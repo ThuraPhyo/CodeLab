@@ -33,7 +33,7 @@
                 android:theme="@style/AppTheme.NoActionBar" />
 
         <service
-                android:name="com.mingalarinfotech.codelab.activities.FireBaseCloudMessagingService"
+                android:name="com.mingalarinfotech.codelab.services.FireBaseCloudMessagingService"
                 android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
