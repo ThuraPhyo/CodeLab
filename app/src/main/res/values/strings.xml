@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CodeLab</string>
+    <string name="loginFaceBook">Login with Facebook</string>
+    <string name="loginGoogle">Login with Google</string>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "753292046373",
+    "firebase_url": "https://codelab-d21a4.firebaseio.com",
+    "project_id": "codelab-d21a4",
+    "storage_bucket": "codelab-d21a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753292046373:android:1a15f6e1c80307309f4fcc",
+        "android_client_info": {
+          "package_name": "com.mingalarinfotech.codelab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753292046373-fq1kft2sdc994isj1ac66n0fpgk5ddp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRIen_4s32ywQvY3-yeNhB7LO8TtWw-gw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753292046373-fq1kft2sdc994isj1ac66n0fpgk5ddp4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

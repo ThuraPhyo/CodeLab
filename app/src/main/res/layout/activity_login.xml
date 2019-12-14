@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                     xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                     android:layout_width="match_parent"
+                                                     android:layout_height="match_parent"
+                                                     android:background="@color/activityBackGround">
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+        <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivImage"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_welcome"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="16dp" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/btnLoginGoogle"/>
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLoginGoogle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:padding="@dimen/margin_medium_2"
+                android:text="@string/loginGoogle"
+                app:icon="@drawable/ic_google"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                app:iconGravity="textStart"
+                app:iconPadding="@dimen/margin_medium_2"
+                app:iconTint="@android:color/transparent"
+                android:textColor="@color/textColor"
+                app:iconTintMode="add"
+                app:backgroundTint="@color/colorWhite"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="16dp" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="16dp" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/btnLoginFaceBook"/>
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLoginFaceBook"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/margin_medium_2"
+                android:text="@string/loginFaceBook"
+                app:icon="@drawable/ic_facebook"
+                android:textColor="@color/textColor"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                app:iconGravity="textStart"
+                app:iconPadding="@dimen/margin_medium_2"
+                app:iconTint="@color/faceBookColor"
+                app:backgroundTint="@color/colorWhite"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="16dp" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="16dp" app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="16dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
