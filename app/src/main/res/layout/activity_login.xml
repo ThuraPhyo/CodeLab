@@ -5,6 +5,7 @@
                                                      android:layout_height="match_parent"
                                                      android:background="@color/activityBackGround">
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ctLogin"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
     >
@@ -19,10 +20,10 @@
                 app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
                 android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginEnd="16dp" android:layout_marginBottom="8dp"
-                app:layout_constraintBottom_toTopOf="@+id/btnLoginGoogle"/>
+            app:layout_constraintBottom_toTopOf="@+id/btnGoogleLogin" />
 
         <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnLoginGoogle"
+            android:id="@+id/btnGoogleLogin"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_gravity="center"
@@ -36,13 +37,14 @@
                 android:textColor="@color/textColor"
                 app:iconTintMode="add"
                 app:backgroundTint="@color/colorWhite"
+                app:cornerRadius="@dimen/margin_medium_2"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginEnd="16dp" app:layout_constraintStart_toStartOf="parent"
                 android:layout_marginStart="16dp" android:layout_marginBottom="8dp"
-                app:layout_constraintBottom_toTopOf="@+id/btnLoginFaceBook"/>
+            app:layout_constraintBottom_toTopOf="@+id/btnFaceBookLogin" />
 
         <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnLoginFaceBook"
+            android:id="@+id/btnFaceBookLogin"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -55,6 +57,7 @@
                 app:iconPadding="@dimen/margin_medium_2"
                 app:iconTint="@color/faceBookColor"
                 app:backgroundTint="@color/colorWhite"
+                app:cornerRadius="@dimen/margin_medium_2"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginEnd="16dp" app:layout_constraintStart_toStartOf="parent"
                 android:layout_marginStart="16dp" app:layout_constraintBottom_toBottomOf="parent"
