@@ -2,4 +2,7 @@
     <string name="app_name">CodeLab</string>
     <string name="loginFaceBook">Login with Facebook</string>
     <string name="loginGoogle">Login with Google</string>
+    <string name="home_fragment">Product Fragment</string>
+    <string name="sport_fragment">Inspiration Fragment</string>
+    <string name="movie_fragment">Shop Fragment</string>
 </resources>
