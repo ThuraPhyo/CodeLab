@@ -1,4 +1,8 @@
 package com.mingalarinfotech.codelab.adapters
 
-class BaseAdapter {
+import androidx.recyclerview.widget.RecyclerView
+import com.mingalarinfotech.codelab.viewholders.BaseViewHolder
+
+abstract class BaseAdapter : RecyclerView.Adapter<BaseViewHolder>() {
+
 }

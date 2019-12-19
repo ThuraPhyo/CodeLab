@@ -2,10 +2,10 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
              android:layout_width="match_parent"
              android:layout_height="match_parent">
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvProduct"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:textSize="20sp"
-            android:text="@string/home_fragment" />
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:padding="@dimen/margin_medium"/>
 </FrameLayout>
