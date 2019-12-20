@@ -12,8 +12,6 @@ import com.mingalarinfotech.codelab.adapters.MainFragmentAdapter
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity() {
-    //var tabLayout: TabLayout? = null
-    //var viewPager: ViewPager? = null
     companion object {
         fun newIntent(context: Context): Intent {
             return Intent(context, MainActivity::class.java)
@@ -30,11 +28,6 @@ class MainActivity : BaseActivity() {
         tabLayout!!.addTab(tabLayout!!.newTab().setText("Inspiration"))
         tabLayout!!.addTab(tabLayout!!.newTab().setText("Shop"))
         tabLayout!!.tabGravity = TabLayout.GRAVITY_FILL
-
-//        tabLayout!!.addTab(tabLayout!!.newTab().setText("Product"))
-//        tabLayout!!.addTab(tabLayout!!.newTab().setText("Inspiration"))
-//        tabLayout!!.addTab(tabLayout!!.newTab().setText("Shop"))
-//        tabLayout!!.tabGravity = TabLayout.GRAVITY_FILL
 
         val adapter = MainFragmentAdapter(this, supportFragmentManager, tabLayout!!.tabCount)
         viewPager!!.adapter = adapter
