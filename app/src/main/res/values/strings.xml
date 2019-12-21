@@ -5,4 +5,6 @@
     <string name="home_fragment">Product Fragment</string>
     <string name="sport_fragment">Inspiration Fragment</string>
     <string name="movie_fragment">Shop Fragment</string>
+    <string name="icon_description">Show Icon</string>
+    <string name="productCount">products</string>
 </resources>

@@ -94,10 +94,10 @@ class LoginActivity : BaseActivity() {
     }
 
     private fun updateUI(currentUser: FirebaseUser?) {
-        //if (currentUser != null) {
+        if (currentUser != null) {
             startActivity(MainActivity.newIntent(applicationContext))
-        //} else {
-            //Toast.makeText(this, "User can't sign in with google mail", Toast.LENGTH_LONG).show()
-        //}
+        } else {
+            Toast.makeText(this, "User can't sign in with google mail", Toast.LENGTH_LONG).show()
+        }
     }
 }
